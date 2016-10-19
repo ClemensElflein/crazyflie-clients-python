@@ -1,0 +1,45 @@
+{
+  "inputconfig": {
+    "inputdevice": {
+      "name": "Test",
+      "updateperiod": 10,
+      "axis": [
+        {
+          "key": "thrust",
+          "name": "thrust",
+          "id": 1,
+          "scale": -1.0,
+          "type": "Input.AXIS"
+        },
+        {
+          "key": "alt1",
+          "name": "alt1",
+          "id": 6,
+          "scale": 1.0,
+          "type": "Input.BUTTON"
+        },
+        {
+          "key": "yaw",
+          "name": "yaw",
+          "id": 0,
+          "scale": 1.0,
+          "type": "Input.AXIS"
+        },
+        {
+          "key": "roll",
+          "name": "roll",
+          "id": 2,
+          "scale": 1.0,
+          "type": "Input.AXIS"
+        },
+        {
+          "key": "pitch",
+          "name": "pitch",
+          "id": 3,
+          "scale": -1.0,
+          "type": "Input.AXIS"
+        }
+      ]
+    }
+  }
+}

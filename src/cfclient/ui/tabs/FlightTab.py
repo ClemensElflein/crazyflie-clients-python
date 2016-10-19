@@ -202,8 +202,8 @@ class FlightTab(Tab, flight_tab_class):
         self.targetCalPitch.setValue(Config().get("trim_pitch"))
         self.targetCalRoll.setValue(Config().get("trim_roll"))
 
-        self.helper.inputDeviceReader.alt1_updated.add_callback(
-            self.alt1_updated)
+        #self.helper.inputDeviceReader.alt1_updated.add_callback(
+        #    self.alt1_updated)
         self.helper.inputDeviceReader.alt2_updated.add_callback(
             self.alt2_updated)
         self._tf_state = 0
